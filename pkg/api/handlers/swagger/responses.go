@@ -463,3 +463,10 @@ type networkPruneResponse struct {
 	// in:body
 	Body []entities.NetworkPruneReport
 }
+
+// Distribution Inspect
+// swagger:response
+type distributionInspectResponse struct {
+	// in:body
+	Body entities.DistributionInspect
+}
